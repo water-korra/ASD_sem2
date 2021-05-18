@@ -171,7 +171,7 @@ void checkWays(double **matrix) {
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 
-char ProgName[]="Laboratory work #3";
+char ProgName[]="Lab 5";
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLine, int nCmdShow)
 {
     HWND hWnd;
@@ -194,7 +194,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLi
     }
 
     hWnd = CreateWindow(ProgName,
-                      "Laboratory #4. Yaroslav Tereschenko",
+                      "Laboratory #4. Sedush Mykhaylo",
                       WS_OVERLAPPEDWINDOW,
                       150, 150,
                       800, 800,
