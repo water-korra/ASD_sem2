@@ -611,6 +611,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT messg, WPARAM wParam, LPARAM lParam)
             drawWeights(W, A);
 
             int** MST = findMinimumSpanningTree(W);
+            printf("\nMinimum spanning tree is:\n");
+            printIntMatrix(MST);
             drawGraph(MST, side * 0.6, windowWidth * 0.8, windowHeight / 2);
             drawWeights(W, MST);
 
